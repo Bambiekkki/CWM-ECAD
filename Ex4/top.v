@@ -16,6 +16,8 @@
 //  You need to write the whole file.
 //////////////////////////////////////////////////////////////////////////////////
 
+`timescale 1ns/ 100ps
+
 module dice(clk,rst,button,throw);
 
 	input clk, rst, button;
