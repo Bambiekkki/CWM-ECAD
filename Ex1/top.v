@@ -32,5 +32,9 @@ module logicalunit(
     wire   out;
          
       //Todo: add you logic here
-
+        assign out = (a==0 && b==0) ? func[0]:
+		(a==0 && b==1) ? func[1]:
+		(a==1 && b==0) ? func[2]:
+		func[3];
+    
 endmodule
