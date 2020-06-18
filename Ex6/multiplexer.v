@@ -1,4 +1,4 @@
-module mux(
+module multiplexer(
       input a,b,sel,
       output out);
    
