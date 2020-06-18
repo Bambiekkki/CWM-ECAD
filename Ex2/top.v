@@ -20,7 +20,7 @@
 
 `timescale 1ns / 100ps
 
-module mux(
+module multiplexer(
     //Todo: define inputs here
       input a,b,sel,
       output out);
